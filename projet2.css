@@ -20,10 +20,12 @@
    margin-left: 45%;
    margin-right: 15%;
    justify-content: space-around
- 
-
 }
 
+#items{
+    margin-top: 0;
+   
+}
 .logo{
     display: flex;
    width: 25%;
