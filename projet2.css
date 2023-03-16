@@ -67,5 +67,17 @@ color: #199BAB;
 .header2{
     display: flex;
     text-justify: space-between;
-
+}
+.baground{
+    padding-top: 10%;
+}
+h1{
+    font-size: 54px;
+    margin-left: 10%;
+}
+p{
+    margin-left: 10%;
+}
+.bon1{
+    margin-left: 10%;
 }
