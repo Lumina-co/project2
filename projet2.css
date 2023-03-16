@@ -1,32 +1,71 @@
-.header{
-    border: 10px; 10px; 10px;
+body{
+    font-family: Arial, Helvetica, sans-serif;
 }
-.items{
+.topbar{
+    border-style:solid;
+    border-style: groove;
     display: flex;
-    flex-direction: row;
-    margin-left: 70%;
-    justify-content: space-around;
-    margin-right: 10%;
+    align-items: flex-start;
+    justify-content: space-around;   
+    text-align: start; 
+    letter-spacing: normal;
+    font-size: 13px;
+    line-height: 44px;
 }
-
 .icone{
     display: flex;
-    margin-left: 10%;
-    margin-top: 0%;   
+    font-size: 15px;
+    line-height: 44px;
+    text-align: center;
+    letter-spacing: 1px;
 }
-.menu{
+.menu-item{
     display: flex;
-   flex-direction: row;
-   margin-left: 45%;
-   margin-right: 15%;
-   justify-content: space-around
+    list-style-type: none;
+    justify-content: end;    
+}
+
+.menu-item a{
+text-decoration: none;
+margin-left: 20px;
+color: #199BAB;
 }
 
 .logo{
+
     display: flex;
-   width: 25%;
-   margin-left: 10%;
+    width: 45%;
+    margin-left: 15%;
+    margin-top: 2%;
 }
-.presso{
-    margin: auto;
+.baground{
+    background-image: url(image/presso.jpg);
+    height: 700px;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.logo_footer{
+    display: flex;
+    justify-content: flex-start;
+    width: 25%;
+}
+.menu-nav{
+    float: left;
+    display: flex;
+    text-decoration: none;
+    flex-direction: row;
+    list-style-type: none;      
+}
+
+.menu-nav a{
+    text-decoration: none;
+    margin: 1rem;
+}
+.svg{
+    width: 20px;
+}
+.header2{
+    display: flex;
+    text-justify: space-between;
+
 }
