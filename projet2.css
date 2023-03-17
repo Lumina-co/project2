@@ -1,5 +1,9 @@
 body{
     font-family: Arial, Helvetica, sans-serif;
+   min-height: 100%;
+   width: 100%;
+
+
 }
 .topbar{
     
@@ -88,7 +92,18 @@ h1{
 }
 
 .block1{
-    width: 10%;
+   padding-left: 200px;
+   padding-right: 200px;
+   display: flex;
+   justify-content: space-between; 
+   gap: 15px;
+   width: 100%;
+}
+.block2{
+    padding-left: 200px;
+    padding-right: 200px;
+    display: flex;
+    justify-content: space-between; 
 }
 .background2{
     background-color: #EEC6C7;
@@ -100,7 +115,6 @@ h1{
     line-height: 3;
     margin-right: 300px;
     text-align: center;
-    
 }
 .bon3{
     margin-left: 70%;
@@ -109,4 +123,12 @@ h1{
     line-height: 3;
     margin-right: 300px;
     text-align: center;
+}
+h2{
+    font-size: 41.4px;
+    text-align: center;
+}
+p{
+    text-align: center;
+    font-size: 27.9;
 }
