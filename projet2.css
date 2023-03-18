@@ -39,7 +39,7 @@ color: #199BAB;
 .logo{
     display: flex;
     width: 50%;
-    margin-left: 15%;
+    justify-content: center;
     margin-top: 2%;
 }
 .background{
@@ -62,38 +62,44 @@ color: #199BAB;
     flex-direction: row;
     list-style-type: none;    
 }
-
+.header2{
+    display: flex;
+    justify-content: space-around; 
+}
+    
 .menu-nav a{
     text-decoration: none;
-    margin: 0.5rem;
+    margin-top: 2rem;
     color:#121212;
     display: flex;
-    justify-content: left;
-
+    justify-content: space-between;
 }
 .svg{
     width: 20px;
-}
-.header2{
-    display: flex;
-    text-justify: space-between;
+    margin-top: 1.5rem;
 }
 .accroche{
-    text-align: center;
-    margin-right: 50%;
-    font-size: 1.5rem;
-    padding: 10%;
+    text-align: left;
+    margin-right: 30%;
+    font-size: 1rem;
+    padding: 13%;
 }
 h1{
     font-size: 54px;
-    margin-left: 10%;
+    margin-right: 20%;
+    text-align: left;  
+}
+.bon1{
+    padding: 5%;
+    list-style-type: none;
 }
 
 .block1{
    display: flex;
    gap: 30px;
    width: 100%;
-   margin-left: 17%;
+   justify-content: center;
+
 }
 .epilation,.visage,.mains{
     display: flex;
@@ -104,39 +110,56 @@ h1{
     display: flex;
     flex-direction: column;
     width: 20%;
+    
 }
 .block2{
     display: flex;
     gap: 30px;
     width: 100%;
-    margin-left: 17%;
+    justify-content: center;
 }
 .background2{
     background-color: #EEC6C7;
     margin: auto;
+    padding: 5%;
 }
-.bon2{
+.bon2,bon3{
     margin-left: 50%;
-    background-color: #121212;
-    color: white;
+    color: #121212;
+    list-style-type:none;
     line-height: 3;
     margin-right: 400px;
     text-align: center;
-    margin-bottom: 150px;
+    text-decoration: none;
 }
-.bon3{
-    margin-left: 50%;
-    background-color: #121212;
-    color:white;
-    line-height: 3;
-    margin-right: 400px;
-    text-align: center;
-}
+
 h2{
     font-size: 41.4px;
     text-align: center;
+    font-style: normal;
 }
 p{
     text-align: center;
     font-size: 27.9;
+}
+.concept{
+    display: flex;
+    flex-direction: column;
+}
+.institut{
+    display: flex;
+    flex-direction: column;
+    width: 35%;
+    text-align: end;
+    padding-left: 50%;
+    text-decoration: none;
+}
+.RV a{
+    display: flex;
+    color: white;
+    text-decoration: none;
+    padding: 3%;
+    border: solid;
+    background-color:#199BAB;
+    font-size: 1.3rem;
 }
