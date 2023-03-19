@@ -49,12 +49,6 @@ color: #199BAB;
     background-repeat: no-repeat;
     width: 100%;
 }
-.box{
-    display: flex;
-    float:left;
-    flex-direction: row;
-}
-
 .menu-nav{
     float: left;
     display: flex;
@@ -64,15 +58,16 @@ color: #199BAB;
 }
 .header2{
     display: flex;
-    justify-content: space-around; 
+    justify-content: center;
+    align-items: flex-start;
 }
     
 .menu-nav a{
     text-decoration: none;
     margin-top: 2rem;
     color:#121212;
-    display: flex;
-    justify-content: space-between;
+    display: flex;   
+    justify-content: space-between; 
 }
 .svg{
     width: 20px;
@@ -105,18 +100,20 @@ h1{
     display: flex;
     flex-direction: column;
     width: 20%;
+    color: #686868;
 }
 .corps,.pulsee,.regard{
     display: flex;
     flex-direction: column;
     width: 20%;
-    
+    color:#686868 ;   
 }
 .block2{
     display: flex;
     gap: 30px;
     width: 100%;
     justify-content: center;
+    align-content: normal;
 }
 .background2{
     background-color: #EEC6C7;
@@ -142,9 +139,26 @@ p{
     text-align: center;
     font-size: 27.9;
 }
-.concept{
+.container{
+    padding-top: 1%;
+    text-align: center;
+    margin-left: 25%;
+    margin-right: 25%;
+    font-size: 1.5rem;
+    color:#888888;
+    background-color:ghostwhite;
+}
+
+h3{
+    font-size: 3rem;
+    color: #199BAB;
+   text-align: center;
+
+}
+.block3{
     display: flex;
     flex-direction: column;
+  
 }
 .institut{
     display: flex;
@@ -162,4 +176,36 @@ p{
     border: solid;
     background-color:#199BAB;
     font-size: 1.3rem;
+}
+h4{
+    color: #F7A196;
+    font-size: 2rem;
+}
+.concept{
+    display: flex;
+    flex-direction: column;
+   align-items: flex-start;
+    
+}
+block5{
+    display: flex;
+    flex-direction: column;
+}
+.phyts{
+    width: 20%;
+}
+
+}
+.video a{
+    display: flex;
+    margin-left: 15%;
+   
+
+}
+.recrutement{
+    display: flex;
+    justify-content: end;
+    margin-left: 50%;
+    color: white;
+    background-color: #199BAB;
 }
