@@ -68,6 +68,7 @@ color: #199BAB;
     color:#121212;
     display: flex;   
     justify-content: space-between; 
+    padding: 0 10px;
 }
 .svg{
     width: 20px;
@@ -191,21 +192,26 @@ block5{
     display: flex;
     flex-direction: column;
 }
-.phyts{
-    width: 20%;
-}
-
-}
-.video a{
-    display: flex;
-    margin-left: 15%;
-   
-
-}
 .recrutement{
     display: flex;
     justify-content: end;
     margin-left: 50%;
     color: white;
     background-color: #199BAB;
+}
+.footer{
+    background-color: #121212;
+    display: flex;
+}
+.logo_footer{
+    display: flex;
+    width: 227px;
+    height: 144px;
+}
+h5{
+    color: white;   
+}
+section1,section2,section3{
+    display: flex;
+    flex-direction: column;   
 }
