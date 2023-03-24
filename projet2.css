@@ -445,3 +445,20 @@ p{
     letter-spacing: 1px; 
     margin-top: 1%;   
 }
+@media screen and (max-width:780px) {
+    .logo{
+        text-align: left;
+        height: 30px;   
+    } 
+    .background{
+       flex-flow: row wrap;
+       text-align: left;
+       width: 100%;
+    }
+    .bon1 a{
+        text-align:right;
+        margin-left: 80%;
+        margin-top: 20%;
+        
+    }
+} 
